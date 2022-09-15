@@ -9,4 +9,4 @@ def client():
 def test_root(client):
 #        """Test the default route."""
    res = client.get('/')
-   assert b'Hello world!' in res.data
+   assert b'Hola world!' in res.data
